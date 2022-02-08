@@ -18,7 +18,14 @@ class Enviroment:
     canvas[[None]]
         #Constructor
         def __init__(self, snake, apple, size):
-            
+            #first we need to create the snake 
+            #and the apple. 
+            self.snake = Snake(0, 0)
+            #the first number has to be generated randomly
+            self.apple = Apple(5 , "Green")
+
+
+
 
     
 

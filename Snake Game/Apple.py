@@ -6,7 +6,27 @@
 
 class Apple:
     #Attributes
-    position
-    color
-        #Constructor
-        def __init__(self, position, color, ):
+    position = 0
+    color = " "
+    #Constructor
+    def __init__(self, position, color, ):
+        #position will start randomly inside
+        #canvas
+        self.position = position
+        self.color = color
+
+    #set methods.
+    def __setColor__ (self, color):
+        self.color = color
+
+    def __setPosition__ (self, position):
+        self.position = position
+
+    #Get methods 
+    def __getPosition__ (self):
+        return self.position 
+
+    def __getColor__ (self):
+        return self.color
+        
+    
